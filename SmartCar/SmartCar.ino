@@ -15,11 +15,6 @@ DirectionlessOdometer rightOdometer(100);
 
 SmartCar car(control, gyroscope, leftOdometer, rightOdometer);
 
-void foo()
-{
-  Serial.println("Hej!");
-}
-
 void setup() {
   Serial.begin(9600);
   // Initialize the odometers (they won't work otherwise)
@@ -32,7 +27,6 @@ void setup() {
 
   car.enableCruiseControl();
   car.setSpeed(1.5); // Maintain a speed of 1.5 m/sec
-  foo();
 }
 
 void loop() {
