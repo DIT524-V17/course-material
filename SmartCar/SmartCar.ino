@@ -34,7 +34,7 @@ void loop() {
   car.update();
   // Stop after moving 1 meter
   if (car.getDistance() >= 100) {
-    car.setSpeed(0);
+    car.setSpeed(100);
   }
 
   // Keep printing out the current heading
