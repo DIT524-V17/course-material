@@ -1,3 +1,6 @@
+/**
+ * Description for this sketch
+ */
 #include <Smartcar.h>
 
 const unsigned short LEFT_ODOMETER_PIN = 2;
