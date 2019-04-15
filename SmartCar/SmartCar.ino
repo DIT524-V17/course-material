@@ -15,6 +15,11 @@ DirectionlessOdometer rightOdometer(100);
 
 SmartCar car(control, gyroscope, leftOdometer, rightOdometer);
 
+void bar()
+{
+  Serial.println(blah);
+}
+
 void foo()
 {
   Serial.println("Hej!");
