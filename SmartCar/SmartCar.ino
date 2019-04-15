@@ -50,7 +50,7 @@ void loop() {
 
   // Keep printing out the current heading
   unsigned long currentTime = millis();
-  if (currentTime >= previousPrintout + PRINT_INTERVAL) {
+  if (currentTime > previousPrintout + PRINT_INTERVAL) {
     previousPrintout = currentTime;
     Serial.println(car.getHeading());
   }
