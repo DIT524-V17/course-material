@@ -42,5 +42,6 @@ void loop() {
   if (currentTime >= previousPrintout + PRINT_INTERVAL + 1) {
     previousPrintout = currentTime;
     Serial.println(car.getHeading());
+    Serial.println("hej");
   }
 }
