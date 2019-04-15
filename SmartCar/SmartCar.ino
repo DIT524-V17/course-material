@@ -17,7 +17,7 @@ SmartCar car(control, gyroscope, leftOdometer, rightOdometer);
 
 void bar()
 {
-  Serial.println(blah);
+  Serial.println("blah");
 }
 
 void foo()
