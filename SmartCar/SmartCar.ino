@@ -22,7 +22,7 @@ void bar()
 
 void foo()
 {
-  Serial.println("Hej!");
+  Serial.println("Hej du!");
 }
 
 void setup() {
