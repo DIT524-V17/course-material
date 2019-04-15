@@ -1,5 +1,6 @@
 /**
  * Description for this sketch
+ * @author: Dimitris
  */
 #include <Smartcar.h>
 
